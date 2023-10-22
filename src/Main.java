@@ -30,7 +30,7 @@ public class Main {
 
         // функция, возвращающая истину, если в переданном массиве есть два соседних элемента, с нулевым значением.
         int[] nums1 = new int[10];
-        Random rand1 = new Random();
+
         for (int i = 0; i < nums1.length; i++) {
             nums1[i] = rand.nextInt(3);
         }

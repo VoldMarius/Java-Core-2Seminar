@@ -7,7 +7,7 @@ import static methods.Diff_Largest_Smallest.getDifference;
 import static methods.TwoAdjacentElemZeroValue.hasZeroNeighbors;
 
 public class Main {
-    public static <nt> void main(String[] args) {
+    public static  void main(String[] args) {
         int[] nums = new int[20];
         Random rand = new Random();
         for (int i = 0; i < nums.length; i++) {
